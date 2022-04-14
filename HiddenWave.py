@@ -2,6 +2,7 @@
 # Powered by TechChip
 # Hide your secret text in wave audio file.
 import os
+from re import M
 import wave
 import argparse
 parser = argparse.ArgumentParser()
@@ -61,3 +62,4 @@ try:
 except:
   print ("Something went wrong!! try again")
   quit('')
+-m
